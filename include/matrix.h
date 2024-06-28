@@ -10,7 +10,7 @@
 
 class Matrix {
 private:
-  std::vector<std::vector<double>> data;
+  std::vector<std::vector<double>> cells;
   size_t rows;
   size_t cols;
 
