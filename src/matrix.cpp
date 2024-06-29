@@ -31,7 +31,7 @@ Matrix Matrix::operator+(const Matrix& other) const {
   Matrix result(rows, cols);
   for (size_t i = 0; i < rows; i++) {
     for (size_t j = 0; j < cols; j++) {
-      result(i, j) = data[i][j] + other(i, j);
+      result(i, j) = cells[i][j] + other(i, j);
     }
   }
   return result;
